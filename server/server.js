@@ -19,13 +19,17 @@ if (isProduction) {
 }
 
 // Middleware
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://medi-res-5bxxznza8-textbox112233.vercel.app",
+];
+
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: allowedOrigins,
     credentials: true,
   })
 );
-
 app.use(express.json({ limit: "20kb" }));
 
 // Session configuration
