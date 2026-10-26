@@ -15,7 +15,7 @@ import {
 import { QRCodeSVG } from "qrcode.react";
 import "./MyMedicalProfiles.css";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://mediresq-apii.onrender.com";
 
 const emptyForm = {
   fullName: "",

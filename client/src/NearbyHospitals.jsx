@@ -22,7 +22,7 @@ const OVERPASS_ENDPOINTS = [
   "https://overpass.private.coffee/api/interpreter",
 ];
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://mediresq-apii.onrender.com";
 const INITIAL_RADIUS_KM = 15;
 const EXPANDED_RADIUS_KM = 20;
 const INITIAL_LIMIT = 10;

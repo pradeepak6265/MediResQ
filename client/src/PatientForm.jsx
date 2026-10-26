@@ -15,7 +15,7 @@ import {
   QrCode,
 } from "lucide-react";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://mediresq-apii.onrender.com";
 
 const initialForm = {
   fullName: "",

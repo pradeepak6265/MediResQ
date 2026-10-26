@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import "./Auth.css";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://mediresq-apii.onrender.com";
 
 function Signup() {
   const navigate = useNavigate();

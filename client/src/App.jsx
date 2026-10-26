@@ -28,7 +28,7 @@ import Login from "./Login";
 import Signup from "./Signup";
 import "./App.css";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://mediresq-apii.onrender.com";
 
 function HomePage() {
   const [menuOpen, setMenuOpen] = useState(false);
